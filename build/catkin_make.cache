@@ -1,2 +1,2 @@
-
+basics
 -DCATKIN_DEVEL_PREFIX=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel -DCMAKE_INSTALL_PREFIX=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/install -G Unix Makefiles

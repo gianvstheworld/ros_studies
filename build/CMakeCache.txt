@@ -397,6 +397,12 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Value Computed by CMake
+basics_BINARY_DIR:STATIC=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/basics
+
+//Value Computed by CMake
+basics_SOURCE_DIR:STATIC=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
@@ -445,6 +451,15 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
+
+//Value Computed by CMake
+my_awesome_code_BINARY_DIR:STATIC=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/my_awesome_code
+
+//Value Computed by CMake
+my_awesome_code_SOURCE_DIR:STATIC=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/my_awesome_code
+
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/noetic/share/rospy/cmake
 
 
 ########################
@@ -594,7 +609,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
