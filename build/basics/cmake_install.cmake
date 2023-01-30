@@ -46,6 +46,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/action" TYPE FILE FILES "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/action/Timer.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/msg" TYPE FILE FILES
+    "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/basics/msg/TimerAction.msg"
+    "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/basics/msg/TimerActionGoal.msg"
+    "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/basics/msg/TimerActionResult.msg"
+    "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/basics/msg/TimerActionFeedback.msg"
+    "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/basics/msg/TimerGoal.msg"
+    "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/basics/msg/TimerResult.msg"
+    "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/basics/msg/TimerFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/basics/cmake" TYPE FILE FILES "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/basics/catkin_generated/installspace/basics-msg-paths.cmake")
 endif()
 
