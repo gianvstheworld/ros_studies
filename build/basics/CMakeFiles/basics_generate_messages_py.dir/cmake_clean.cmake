@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/_Complex.py"
   "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/__init__.py"
+  "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py"
+  "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/__init__.py"
   "CMakeFiles/basics_generate_messages_py"
 )
 

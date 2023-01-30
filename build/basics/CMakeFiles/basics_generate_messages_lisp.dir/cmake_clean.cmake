@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/common-lisp/ros/basics/msg/Complex.lisp"
+  "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/common-lisp/ros/basics/srv/WordCount.lisp"
   "CMakeFiles/basics_generate_messages_lisp"
 )
 

@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/msg/Complex.msg"
-services_str = ""
+services_str = "/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/srv/WordCount.srv"
 pkg_name = "basics"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

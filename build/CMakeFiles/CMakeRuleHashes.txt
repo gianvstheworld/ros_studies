@@ -1,13 +1,20 @@
 # Hashes of file build rules.
 903983c5f00df89a55280bd0e2522371 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/Complex.h
+1ac06bcc3079cf91b04dfdd3fdad466e /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/WordCount.h
 04df78b360297e7262275a09ef1dfc23 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/_Complex.py
 a25f9225cfc65b7cbbbdb4e0d5ec3b81 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/__init__.py
+2b81578313be1f41db8719695284f926 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py
+852b2e53ef41374c0b884fd08cf8cf49 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/__init__.py
 d8f7ee764eae42314d0d7fb242002e8e /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/common-lisp/ros/basics/msg/Complex.lisp
+3a667a548efdc521b18c92f4b7c1d3b3 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/common-lisp/ros/basics/srv/WordCount.lisp
 deeddf938c4ce449d713042754f060cc /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/gennodejs/ros/basics/msg/Complex.js
+16949dae4595c44320322134e984823e /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/gennodejs/ros/basics/srv/WordCount.js
 45b5744420af6bca44af71924b80af46 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/roseus/ros/basics/manifest.l
 8498c9510d7ea997092a533e5737894d /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/roseus/ros/basics/msg/Complex.l
+fec5d30842c363e22f0ca9cbba599ffb /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/share/roseus/ros/basics/srv/WordCount.l
 b14b5dcd8301d3bae4c3a57e7a354e06 CMakeFiles/clean_test_results
 aafac730788252ede89d4a9927267fdd basics/CMakeFiles/_basics_generate_messages_check_deps_Complex
+70c6330c8f2d6f1f8ac85096926fc040 basics/CMakeFiles/_basics_generate_messages_check_deps_WordCount
 50ac153c0fe8e2b26d402c31a0347e7c basics/CMakeFiles/basics_generate_messages_cpp
 50ac153c0fe8e2b26d402c31a0347e7c basics/CMakeFiles/basics_generate_messages_eus
 50ac153c0fe8e2b26d402c31a0347e7c basics/CMakeFiles/basics_generate_messages_lisp

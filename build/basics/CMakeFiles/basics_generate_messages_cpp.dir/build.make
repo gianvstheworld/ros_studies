@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build
 include basics/CMakeFiles/basics_generate_messages_cpp.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_cpp: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/Complex.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/WordCount.h
 
 
 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/Complex.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
@@ -62,8 +63,16 @@ basics/CMakeFiles/basics_generate_messages_cpp: /home/gian/Documentos/Códigos/S
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from basics/Complex.msg"
 	cd /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics && /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/msg/Complex.msg -Ibasics:/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics -e /opt/ros/noetic/share/gencpp/cmake/..
 
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/WordCount.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/WordCount.h: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/srv/WordCount.srv
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/WordCount.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/WordCount.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from basics/WordCount.srv"
+	cd /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics && /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/srv/WordCount.srv -Ibasics:/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics -e /opt/ros/noetic/share/gencpp/cmake/..
+
 basics_generate_messages_cpp: basics/CMakeFiles/basics_generate_messages_cpp
 basics_generate_messages_cpp: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/Complex.h
+basics_generate_messages_cpp: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/include/basics/WordCount.h
 basics_generate_messages_cpp: basics/CMakeFiles/basics_generate_messages_cpp.dir/build.make
 
 .PHONY : basics_generate_messages_cpp

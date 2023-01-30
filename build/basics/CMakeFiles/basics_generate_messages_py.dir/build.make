@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build
 include basics/CMakeFiles/basics_generate_messages_py.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/_Complex.py
+basics/CMakeFiles/basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py
 basics/CMakeFiles/basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/__init__.py
+basics/CMakeFiles/basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/__init__.py
 
 
 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/_Complex.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ basics/CMakeFiles/basics_generate_messages_py: /home/gian/Documentos/Códigos/SE
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG basics/Complex"
 	cd /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/msg/Complex.msg -Ibasics:/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg
 
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV basics/WordCount"
+	cd /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/srv/WordCount.srv -Ibasics:/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/src/basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p basics -o /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv
+
 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/__init__.py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/_Complex.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for basics"
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/__init__.py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for basics"
 	cd /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg --initpy
+
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/__init__.py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/_Complex.py
+/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/__init__.py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for basics"
+	cd /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv --initpy
 
 basics_generate_messages_py: basics/CMakeFiles/basics_generate_messages_py
 basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/_Complex.py
+basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/_WordCount.py
 basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/msg/__init__.py
+basics_generate_messages_py: /home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel/lib/python3/dist-packages/basics/srv/__init__.py
 basics_generate_messages_py: basics/CMakeFiles/basics_generate_messages_py.dir/build.make
 
 .PHONY : basics_generate_messages_py
