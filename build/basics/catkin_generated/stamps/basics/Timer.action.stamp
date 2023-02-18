@@ -1,7 +1,7 @@
 # Definição do arquivo action - destino, resultado e o feedback
 
-# destino - enviado ao client
-duration time_to_wait 
+# destino - enviado ao client 
+duration time_to_wait # tempo de espera desejado
 --- 
 # resultado - enviado ao server
 duration time_elapsed
