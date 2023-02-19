@@ -1,0 +1,8 @@
+prefix=/home/gian/Documentos/Códigos/SEMEAR/ROS/ros_studies/devel
+
+Name: teleopbot
+Description: Description of teleopbot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
